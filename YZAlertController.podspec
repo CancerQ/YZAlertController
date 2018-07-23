@@ -4,8 +4,8 @@ s.name         = 'YZAlertController'
 s.summary      = 'Harness the YZAlertController with a simplified, chainable and expressive syntax.'
 s.version      = '0.0.1'
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
-s.author             = { "BY" => "superyezhqiang@163.com" }
-s.social_media_url   = "https://github.com/CancerQ"
+s.authors      = { 'CancerQ' => 'superyezhqiang@163.com' }
+s.social_media_url   = 'https://github.com/CancerQ'
 s.homepage     = 'https://github.com/CancerQ/YZAlertController'
 s.platform     = :ios, '8.0'
 s.ios.deployment_target = '8.0'
