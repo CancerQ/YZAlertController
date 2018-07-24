@@ -33,12 +33,7 @@ Installation
 
 Requirements
 ==============
-This library requires `iOS 8.0+` and `Xcode 9.0+`.
-
-Notice
-==============
-I want to use the APIs as if it was provided by system, and I don't add prefix in
-these categories. I do not recommend using the `YZAlertController` directly, you should try the separated components first.
+This library requires `iOS 8.0+` and `Xcode 9.0`.
 
 License
 ==============
