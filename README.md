@@ -17,7 +17,6 @@ Installation
 2. Run `pod install` or `pod update`.
 3. Import \<YZAlertController/YZAlertController.h\>.
 
-
 ### Carthage
 
 1. Add `github "CancerQ/YZAlertController"` to your Cartfile.
@@ -44,7 +43,6 @@ these categories. I do not recommend using the `YZAlertController` directly, you
 License
 ==============
 YZAlertController is provided under the MIT license. See LICENSE file for details.
-
 
 <br/><br/>
 ---
