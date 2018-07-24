@@ -35,6 +35,27 @@ Requirements
 ==============
 This library requires `iOS 8.0+` and `Xcode 9.0`.
 
+usage
+==============
+Heres the same UIAlertController created using YZAlertController
+
+```obj-c
+
+    [[[[[[YZAlertController.title(@"title").message(@"message").preferredStyle(UIAlertControllerStyleAlert)
+          addAction:nil](@"Action1", UIAlertActionStyleDestructive)
+         addAction:nil](@"Action2", UIAlertActionStyleDefault)
+        addAction:^(UIAlertAction *action) {
+            NSLog(@"action title is:%@",action.title);
+        }](@"Action", UIAlertActionStyleCancel)
+       addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+           textField.placeholder = @"textField";
+       }]addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+           textField.placeholder = @"textField";
+       }]addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+           textField.placeholder = @"textField";
+       }].showOnCtr(ctr);
+```
+
 License
 ==============
 YZAlertController is provided under the MIT license. See LICENSE file for details.
@@ -75,6 +96,27 @@ YZAlertController 是将UIAlertController使用简化的、可链接的和表达
 系统要求
 ==============
 该项目最低支持 `iOS 8.0` 和 `Xcode 9.0`。
+
+用法
+==============
+使用YZAlertController创建一个相同的UIAlerController
+
+```obj-c
+
+    [[[[[[YZAlertController.title(@"title").message(@"message").preferredStyle(UIAlertControllerStyleAlert)
+          addAction:nil](@"Action1", UIAlertActionStyleDestructive)
+         addAction:nil](@"Action2", UIAlertActionStyleDefault)
+        addAction:^(UIAlertAction *action) {
+            NSLog(@"action title is:%@",action.title);
+        }](@"Action", UIAlertActionStyleCancel)
+       addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+           textField.placeholder = @"textField";
+       }]addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+           textField.placeholder = @"textField";
+       }]addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+           textField.placeholder = @"textField";
+       }].showOnCtr(ctr);
+```
 
 许可证
 ==============
