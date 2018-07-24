@@ -43,7 +43,6 @@ these categories. I do not recommend using the `YZAlertController` directly, you
 License
 ==============
 YZAlertController is provided under the MIT license. See LICENSE file for details.
-
 <br/><br/>
 ---
 中文介绍
