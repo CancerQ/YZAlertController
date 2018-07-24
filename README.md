@@ -35,7 +35,7 @@ Requirements
 ==============
 This library requires `iOS 8.0+` and `Xcode 9.0`.
 
-usage
+Usage
 ==============
 Heres the same UIAlertController created using YZAlertController
 
