@@ -9,6 +9,9 @@
 #import "YZPopupWindow.h"
 
 @interface YZPopupWindow()<UIGestureRecognizerDelegate>
+
+@property (nonatomic, strong) NSMutableArray <__kindof UIView *> *popViews;
+
 @end
 @implementation YZPopupWindow
 
@@ -40,17 +43,21 @@
     return window;
 }
 
+- (void)addSubview:(UIView *)view{
+    [super addSubview:view];
+    [self.popViews removeAllObjects];
+    [self.popViews addObject:view];
+}
+
 - (void)actionTap:(UITapGestureRecognizer*)gesture{
 
 }
 
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
-{
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch{
     return YES;
 }
 
-- (UIView *)attachView
-{
+- (UIView *)attachView{
     return self.rootViewController.view;
 }
 
