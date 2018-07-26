@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101F001E21095801008A9E40 /* YZPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F001D21095801008A9E40 /* YZPopupWindow.m */; };
 		10237C342105EC74002F5228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10237C332105EC74002F5228 /* AppDelegate.m */; };
 		10237C372105EC74002F5228 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10237C362105EC74002F5228 /* ViewController.m */; };
 		10237C3A2105EC74002F5228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10237C382105EC74002F5228 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101F001C21095801008A9E40 /* YZPopupWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPopupWindow.h; sourceTree = "<group>"; };
+		101F001D21095801008A9E40 /* YZPopupWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPopupWindow.m; sourceTree = "<group>"; };
 		10237C2F2105EC74002F5228 /* YZAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10237C322105EC74002F5228 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10237C332105EC74002F5228 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			children = (
 				10237C4F2105F5E5002F5228 /* YZAlertController.h */,
 				10237C502105F5E5002F5228 /* YZAlertController.m */,
+				101F001C21095801008A9E40 /* YZPopupWindow.h */,
+				101F001D21095801008A9E40 /* YZPopupWindow.m */,
 			);
 			name = YZAlertController;
 			path = ../../../YZAlertController;
@@ -158,6 +163,7 @@
 				10237C372105EC74002F5228 /* ViewController.m in Sources */,
 				10237C512105F5E5002F5228 /* YZAlertController.m in Sources */,
 				10237C422105EC76002F5228 /* main.m in Sources */,
+				101F001E21095801008A9E40 /* YZPopupWindow.m in Sources */,
 				10237C342105EC74002F5228 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
