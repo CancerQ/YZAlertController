@@ -57,7 +57,12 @@
 
 - (YZAlertController * (^)(NSString *, ...))addAction:(ActionHandler)handler{
     return ^id(NSString *title, ...){
-        UIAlertActionStyle style = ({va_list valist;va_start(valist, title);UIAlertActionStyle style = va_arg(valist, UIAlertActionStyle);va_end(valist);style = (style<=2 && style>=0)?style:UIAlertActionStyleDefault;});
+        UIAlertActionStyle style = ({
+            va_list valist;va_start(valist, title);
+            UIAlertActionStyle style = va_arg(valist, UIAlertActionStyle);
+            va_end(valist);
+            style = (style <= 2 && style >= 0) ? style : UIAlertActionStyleDefault;
+        });
         [self.actions addObject:[UIAlertAction actionWithTitle:title style:style handler:handler]];
         return self;
     };
@@ -104,8 +109,8 @@
 
 - (UIAlertController *)alertController{
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:__title message:__message preferredStyle:__preferredStyle];
-    for (int i = 0; i<self.actions.count; i++) [alertController addAction:self.actions[i]];
-    for (int i = 0; i<self.textFieldConfigurationHandlers.count; i++) [alertController addTextFieldWithConfigurationHandler:self.textFieldConfigurationHandlers[i]];
+    for (int i = 0; i < self.actions.count; i++) [alertController addAction:self.actions[i]];
+    for (int i = 0; i < self.textFieldConfigurationHandlers.count; i++) [alertController addTextFieldWithConfigurationHandler:self.textFieldConfigurationHandlers[i]];
     return alertController;
 }
 
