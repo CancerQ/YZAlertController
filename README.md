@@ -25,7 +25,7 @@ Installation
 
 ### Manually
 
-1. Download all the files in the `YYKit` subdirectory.
+1. Download all the files in the `YZAlertController` subdirectory.
 2. Add the source files to your Xcode project.
 3. Link with required frameworks:
     * UIKit
