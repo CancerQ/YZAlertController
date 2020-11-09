@@ -17,12 +17,6 @@ Installation
 2. Run `pod install` or `pod update`.
 3. Import \<YZAlertController/YZAlertController.h\>.
 
-### Carthage
-
-1. Add `github "CancerQ/YZAlertController"` to your Cartfile.
-2. Run `carthage update --platform ios` and add the framework to your project.
-3. Import \<YZAlertController/YZAlertController.h\>.
-
 ### Manually
 
 1. Download all the files in the `YZAlertController` subdirectory.
