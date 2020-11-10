@@ -72,13 +72,6 @@ YZAlertController 是将UIAlertController使用简化的、可链接的和表达
 2. 执行 `pod install` 或 `pod update`。
 3. 导入 \<YZAlertController/YZAlertController.h\>。
 
-
-### Carthage
-
-1. 在 Cartfile 中添加 `github "CancerQ/YZAlertController"`。
-2. 执行 `carthage update --platform ios` 并将生成的 framework 添加到你的工程。
-3. 导入 \<YZAlertController/YZAlertController.h\>。
-
 ### 手动安装
 
 1. 下载 YZAlertController 文件夹内的所有内容。
